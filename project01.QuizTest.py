@@ -1,7 +1,7 @@
 
-print("welcome to my game")
+print("Welcome to my game")
  
-playing= input("do you want to play? ")
+playing= input("Do you want to play? ")
 if playing  != "yes":
     quit()
 print("Okay, let's play")
@@ -71,7 +71,7 @@ print("You got" + str(score)+  "questions correct")
 print("You got " + str(round(score/9 * 100,2))+ " %")
 
 if score == 9 :
-      ("Good job")
+      ("Good job!")
 
 
 
